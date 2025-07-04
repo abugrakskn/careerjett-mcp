@@ -1,0 +1,17 @@
+{
+  "name": "careerjet-job-search",
+  "description": "Careerjet API MCP",
+  "endpoints": [
+    {
+      "name": "searchJobs",
+      "method": "POST",
+      "url": "https://public.api.careerjet.net/search",
+      "body": {
+        "keywords": "{{position}}",
+        "location": "{{city}}",
+        "locale_code": "en_TR"
+      },
+      "responseType": "json"
+    }
+  ]
+}
